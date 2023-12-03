@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./night-city-8-bit-thumb.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Noto Sans JP', sans-serif;
+} 
+
+#saludo{
+    text-align: center ;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+#reloj{
+    color:white;
+    text-align: center;
+    margin: 0 40 px 40px 40px;
+}
+
+#reloj > p {
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    font-size: 70px;
+}
